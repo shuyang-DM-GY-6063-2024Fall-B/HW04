@@ -85,6 +85,9 @@ function setup(){
   quad(windowWidth/2, windowWidth/4,windowWidth/2, windowHeight,windowWidth*3/4,windowHeight,windowWidth*3/4,0)
   
 
+  fill(color5)
+
+  quad(windowWidth, windowWidth/4,windowWidth, windowHeight,windowWidth*3/4,windowHeight,windowWidth*3/4,0)
   
   let r = 2
   for(y=0;y<windowHeight+windowWidth/4;y += 2*gap){
