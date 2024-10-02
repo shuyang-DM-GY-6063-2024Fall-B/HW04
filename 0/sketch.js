@@ -1,3 +1,4 @@
+// copy the wall drawing
 
 let x = 0;
 let speed = 5;

@@ -1,4 +1,6 @@
 
+// try to draw a field of flowers
+
 function setup(){
 
   createCanvas(windowWidth, windowHeight);
