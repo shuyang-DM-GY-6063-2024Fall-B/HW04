@@ -96,8 +96,8 @@ function draw() {
       flower(chosenc3,  a-num*direction, b+2*num*direction, 6+num + Math.sin((x - num)/ 6)*num, -x *num/3*direction, num-4);
       flower(chosenc2,  a+2*num*direction, b-num*direction, 4+num + Math.sin((x + num)/ 6)*num, x *num/3*direction, num-3);
     } else {
-      flower(chosenc1, a+2*num*direction, b-2*num*direction, 30+num + Math.abs(Math.sin((x + num/2)/ 6))*num-mouseY*num/windowHeight, x *num/3*direction + 45, num-3);
-      flower(chosenc2,  a+2*num*direction, b-2*num*direction, 10+0.1*num*num + Math.abs(Math.sin((x + num)/ 6))*num-mouseX*num/windowWidth, x *num/3*direction, num);
+      flower(chosenc1, a+2*num*direction+mouseX*num/windowWidth, b-2*num*direction+mouseY*num/windowHeight, 30+num + Math.abs(Math.sin((x + num/2)/ 6))*num-mouseY*num/windowHeight, x *num/3*direction + 45, num-3);
+      flower(chosenc2,  a+2*num*direction+mouseX*num/windowWidth, b-2*num*direction+mouseY*num/windowHeight, 10+0.1*num*num + Math.abs(Math.sin((x + num)/ 6))*num-mouseX*num/windowWidth, x *num/3*direction, num);
     }
   }
 }
